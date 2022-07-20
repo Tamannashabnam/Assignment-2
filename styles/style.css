@@ -1,0 +1,74 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&family=Splash&display=swap');
+
+/*common style or utilities*/
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: teal;
+
+
+}
+
+.container {
+  background-color: black;
+  color: aliceblue;
+  justify-content: space-between;
+  display: flex;
+  width: 900px;
+  height: 30%;
+  padding: 50px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 15%;
+  margin-right: 10px;
+
+
+}
+
+
+
+
+
+.this:hover {
+  transform: rotate(180deg);
+  transform-origin: top left;
+}
+
+.my {
+  background-color: brown;
+  border-radius: 10px;
+
+}
+
+
+
+.match {
+  height: 250px;
+  width: 40%;
+  background-color: blueviolet;
+  display: grid;
+
+}
+
+.up-match {
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-right: 5%;
+}
+
+.one {
+  background-color: brown;
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-right: 5%;
+}
+
+.match img {
+  width: 70%;
+}
